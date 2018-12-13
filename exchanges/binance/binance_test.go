@@ -430,3 +430,18 @@ func TestGetAccountInfo(t *testing.T) {
 		t.Error("test failed - GetAccountInfo() error:", err)
 	}
 }
+
+func TestWithdraw(t *testing.T) {
+	b.SetDefaults()
+	TestSetup(t)
+	b.Verbose = true
+
+	if !isRealOrderTestEnabled() {
+		t.Skip()
+	}
+
+	response, err := b.WithdrawCryptocurrencyFunds("1F5zVDgNjorJ51oGebSvNCrSAHpwGkUdDB", pair.CurrencyItem(symbol.BTC), 100)
+	if err != nil || len(response) <= 2 {
+		t.Errorf("Withdraw failed to be placed: %v", err)
+	}
+}

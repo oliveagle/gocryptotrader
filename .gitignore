@@ -3,6 +3,7 @@ config.dat
 node_modules
 lib
 .vscode
+*.sw[op]
 
 testdata/dump
 testdata/writefiletest

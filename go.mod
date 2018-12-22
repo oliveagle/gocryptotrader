@@ -12,3 +12,9 @@ require (
 	golang.org/x/crypto v0.0.0-20180602220124-df8d4716b347
 	golang.org/x/net v0.0.0-20180201030042-309822c5b9b9 // indirect
 )
+
+replace (
+	golang.org/x/crypto v0.0.0-20180602220124-df8d4716b347 => github.com/golang/crypto v0.0.0-20180802221240-56440b844dfe
+	golang.org/x/net v0.0.0-20180201030042-309822c5b9b9 => github.com/golang/net v0.0.0-20181214192244-a4630153038d // indirect
+
+)

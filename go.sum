@@ -1,4 +1,8 @@
 github.com/beatgammit/turnpike v0.0.0-20170911161258-573f579df7ee/go.mod h1:nLl3qHMc5xKNLHHm/T7qBzrYGKSCJqLnFVLb2B5RvGI=
+github.com/golang/crypto v0.0.0-20180802221240-56440b844dfe h1:AHIhAdOQSLl25ZZjl10+Y2cTGOUNeoYl2/O8OtP7X6o=
+github.com/golang/crypto v0.0.0-20180802221240-56440b844dfe/go.mod h1:uZvAcrsnNaCxlh1HorK5dUQHGmEKPh2H/Rl1kehswPo=
+github.com/golang/net v0.0.0-20181214192244-a4630153038d h1:fCLOgzr1h37WhSp1UUUqzyEHw9AlD/G2ttYEYBkt97E=
+github.com/golang/net v0.0.0-20181214192244-a4630153038d/go.mod h1:98y8FxUyMjTdJ5eOj/8vzuiVO14/dkJ98NYhEPG8QGY=
 github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f h1:9oNbS1z4rVpbnkHBdPZU4jo9bSmrLpII768arSyMFgk=
 github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f/go.mod h1:kBGZzfjB9CEq2AlWe17Uuf7NDRt0dE0s8S51q0aT7Yg=
 github.com/gorilla/mux v1.6.1 h1:KOwqsTYZdeuMacU7CxjMNYEKeBvLbxW+psodrbcEa3A=
